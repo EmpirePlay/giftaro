@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b0e14;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 75px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #202632;
+    background: #10151e;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #35d6d0;
+}
+
+.profile {
+    padding: 11px 20px;
+    border-radius: 12px;
+    background: #1b2632;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 25px;
+}
+
+.hero {
+    padding: 55px 40px;
+    border-radius: 22px;
+    background: linear-gradient(120deg, #123b43, #17243a, #202044);
+    border: 1px solid #24505b;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #b5c4d0;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.hero input {
+    width: 100%;
+    max-width: 500px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid #344653;
+    outline: none;
+    background: #101923;
+    color: white;
+    font-size: 15px;
+}
+
+.hero input:focus {
+    border-color: #35d6d0;
+}
+
+.catalog {
+    margin-top: 45px;
+}
+
+.catalog h2 {
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+
+.empty {
+    padding: 55px 20px;
+    text-align: center;
+    color: #778594;
+    background: #121923;
+    border: 1px solid #222d3a;
+    border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    main {
+        padding: 25px 15px;
+    }
+
+    .hero {
+        padding: 35px 22px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
